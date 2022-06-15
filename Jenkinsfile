@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('Start') {
       steps {
+        sh 'cat "blabla.txt"'
         sh 'echo "Starting!"'
       }
     }
